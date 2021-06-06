@@ -1,0 +1,23 @@
+{
+  "name": "elasticSearchBook",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --inspect=9229 ./src/shared/http/server.ts --transpile-only --respawn"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.13.0",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/elasticsearch": "^5.0.37",
+    "@types/express": "^4.17.12",
+    "@types/uuid": "^8.3.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.2"
+  }
+}
